@@ -8,6 +8,11 @@ Differenz = AnfangsTempKaffee - Zimmertemperatur
 print("Die Zimmertemperatur beträgt: ", Zimmertemperatur,"° Grad")
 print("Die Differenz beträgt: ", Differenz, "° Grad")
 
+if AnfangsTempKaffee < 0 or AnfangsTempKaffee > 100:
+    print("Ungültige Eingabe !!")
+#else:
+    #print("juhu")
+
 while Differenz > 0.5:
     Minute = Minute + 1
     Differenz = Differenz - (Differenz / 100 * AbnahmeFaktor)
