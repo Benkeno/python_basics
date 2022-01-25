@@ -24,9 +24,9 @@ wochentag = str()                                   # Variable Wochentag (leer) 
 #----------- Verarbeitung ----------------------------
 
 if monat < 3:                                       # wenn Monat kleiner 3
-     monat += 10                                  # erhöhe Monat um 10
-     jahr -= 1                                    # und Verringern Jahr um 1
-else: monat -= 2
+     monat + 10                                  # erhöhe Monat um 10
+     jahr - 1                                    # und Verringern Jahr um 1
+else: monat - 2
                                                     # sonst Monat um 2 verringern
 if f == 0:                                          # wenn int  f 0 (if)
     wochentag = "Sonntag"                           # wird string Sonntag
